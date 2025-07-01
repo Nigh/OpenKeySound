@@ -9,10 +9,10 @@ Free live-recorded key tones.
 Root
 ├─ KeyTone
 │  ├─ README.md
-│  ├─ Record-[N]
+│  ├─ [NN]
 │  │  ├─ xxxx.wav
 │  │  └─ yyyy.wav
-│  └─ Record-[N]
+│  └─ [NN]
 │     ├─ xxx.wav
 │     └─ yyy.wav
 └─ README.md
