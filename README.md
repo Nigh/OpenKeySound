@@ -1,13 +1,13 @@
-# OpenKeySound
+# OpenClickSound
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
-Free live-recorded key tones.  
+Free live-recorded click sound.  
 免费实录按键音
 
 ## File structure
 ```
 Root
-├─ KeyTone
+├─ Sound
 │  ├─ README.md
 │  ├─ [NN]
 │  │  ├─ xxxx.wav
@@ -17,7 +17,7 @@ Root
 │     └─ yyy.wav
 └─ README.md
 ```
-All recordings are stored in the `KeyTone` directory, and the `README.md` file describes the configuration of each recording. The recordings for each configuration are stored in a separate "Record" directory.  
+All recordings are stored in the `Sound` directory, and the `README.md` file describes the configuration of each recording. The recordings for each configuration are stored in a separate "Record" directory.  
 
 The file naming format is `kt{NN}-{TTTT}-{p}-{nn}`, where:  
 - **NN** is the recording configuration number,  
